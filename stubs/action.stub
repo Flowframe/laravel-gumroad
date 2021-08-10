@@ -1,0 +1,14 @@
+<?php
+
+namespace DummyNamespace;
+
+use Flowframe\Gumroad\Contracts\Actionable;
+use Flowframe\Gumroad\GumroadPing;
+
+class DummyClass implements Actionable
+{
+    public function __construct(GumroadPing $gumroadPing, array $data)
+    {
+        //
+    }
+}
